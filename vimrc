@@ -34,7 +34,8 @@ set cursorline
 set encoding=utf-8
 set fileencoding=utf-8
 set ignorecase
-"set list
+set list
+set listchars=trail:·,tab:»·,eol:¬
 set noswapfile
 "set number
 set shell=/bin/bash

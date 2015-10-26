@@ -19,7 +19,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
-"Plugin 'Valloric/YouCompleteMe'
+Plugin 'shawncplus/phpcomplete.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -51,8 +51,8 @@ map <C-w>n :vne<CR>
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrows = 1
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
+let g:NERDTreeDirArrowExpandable = '˃'
+let g:NERDTreeDirArrowCollapsible = '˅'
 
 " Syntastic
 set statusline+=%#warningmsg#
